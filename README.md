@@ -17,7 +17,17 @@ With the help of machine learning algorithms, we are going to attempt to predict
 
 ## Results
 
+![](ScreenShots/1.Naive_Random_Oversampling.png)
 
+![](ScreenShots/2.SMOTE_Oversampling.png)
+
+![](ScreenShots/3.Undersampling_ClusterCentroids.png)
+
+![](ScreenShots/4.Combination_SMOTEENN.png)
+
+![](ScreenShots/5.Balanced_Random_Forest_Classifier.png)
+
+![](ScreenShots/6.Easy_Ensemble_AdaBooster_Classifier.png)
 
 
 
