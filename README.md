@@ -17,21 +17,35 @@ With the help of machine learning algorithms, we are going to attempt to predict
 
 ## Results
 
+### Naive Random Oversampling
+- The calculated balanced accuracy score we received was 66% which is considerably low.
+- The high_risk precision we received was 1% with a 66% recall. Again, considerably low.
 ![](ScreenShots/1.Naive_Random_Oversampling.png)
 
+### SMOTE Oversampling
+- The calculated balanced accuracy score we received was 63% which is considerably low.
+- The high_risk precision we received was 1% with a 61% recall. Again, considerably low.
 ![](ScreenShots/2.SMOTE_Oversampling.png)
 
+### Undersampling ClusterCentroids
+- The calculated balanced accuracy score we received was 53% which is considerably low.
+- The low_risk precision we received was 99% with a 45% recall. 
 ![](ScreenShots/3.Undersampling_ClusterCentroids.png)
 
+### Combination Sampling with SMOTEENN
+- The calculated balanced accuracy score we received was 67% which is considerably low.
+- The low_risk precision we received was 99% with a 60% recall. 
 ![](ScreenShots/4.Combination_SMOTEENN.png)
 
+### Balanced Random Forest Classifier
+- The calculated balanced accuracy score we received was 80%.
+- The low_risk precision we received was 99% with a 86% recall. 
 ![](ScreenShots/5.Balanced_Random_Forest_Classifier.png)
 
+### Easy Ensemble AdaBooster Classifier
+- The calculated balanced accuracy score we received was 93% which is considerably low.
+- The low_risk precision we received was 99% with a 94% recall. 
 ![](ScreenShots/6.Easy_Ensemble_AdaBooster_Classifier.png)
-
-
-
-
 
 ## Summary
 Based on our findings, the best performance model to use to predict credit risk was Easy Ensemble. The recall score, high balanced accuracy score and the high precision score all played a role in making Easy Ensemble the best performance model.
